@@ -11,14 +11,14 @@ from io import BytesIO
 from datetime import datetime
 import random
 from telethon import events, Button, custom
-from userbot.utils import admin_cmd
-from userbot import ALIVE_NAME
-from userbot import bot as borg
+from ULTRA.utils import admin_cmd
+from ULTRA import ALIVE_NAME
+from ULTRA import bot as borg
 from telethon.tl.custom import Button
 from telethon.tl.types import ChannelParticipantsAdmins
 global ok
 ok = borg.uid
-from userbot.utils import admin_cmd
+from ULTRA.utils import admin_cmd
 from PIL import Image
 import requests
 from io import BytesIO
@@ -69,7 +69,7 @@ if TG_BOT_USER_NAME_BF_HER is not None:
 
 
 
-from userbot import bot
+from ULTRA import bot
 
 
 @bot.on(admin_cmd(outgoing=True, pattern="alive"))

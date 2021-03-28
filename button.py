@@ -8,7 +8,7 @@
                  CREDITS TEAMLEGEND
                DONT REMOVE THIS LINES
 """
-from userbot.utils import admin_cmd
+from ULTRA.utils import admin_cmd
 from LEGENDX import xbot, NAME
 from telethon import Button
 @borg.on(admin_cmd(pattern="button (.*)"))
